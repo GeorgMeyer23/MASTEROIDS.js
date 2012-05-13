@@ -1,4 +1,4 @@
 MASTEROIDS.js
 =============
 
-a multiplayer asteroids without asteroids but plenty of ships
+A multiplayer asteroids of course without asteroids. :)
