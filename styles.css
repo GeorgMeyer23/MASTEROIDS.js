@@ -1,0 +1,127 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+    background-color: #000;
+    overflow: hidden;
+    color: #FFF;
+    font-family: 'Press Start 2P', cursive;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1 {
+    padding: 80px 0 20px 0;
+    font-size: 64px;
+    font-weight: normal;
+}
+
+p.info {
+    font-size: 8px;
+    line-height: 12px;
+    opacity: 0.8;
+}
+
+p.interface {
+    padding: 80px 0 120px 0;
+    line-height: 16px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+p.spacer {
+    padding: 50px 0;
+}
+
+#asteroids {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 1325px;
+    height: 605px;
+    overflow: hidden;
+}
+
+    #canvas-target {
+        position: absolute;
+    }
+    
+    #canvas-overlay {
+        position: absolute;
+        width: 1325px;
+        height: 605px;
+        text-align: center;
+    }
+
+    #game-info-left {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        font-size: 8px;
+    }
+    
+    #game-info-right {
+        position: absolute;
+        top: 1px;
+        right: 5px;
+        text-align: right;
+        font-size: 8px;
+    }
+    
+        #game-info-lives {
+            font-size: 12px;
+        }
+
+    .game-info {
+        display: none;
+    }
+
+/**
+ * helper
+ */
+.fullsize-image {
+    position: absolute;
+}
