@@ -37,6 +37,7 @@ function log(o){if(typeof console==="object"){if(typeof console.log==="function"
 }());
 
 console.log(window);
+console.log(document);
 
 
 /**
